@@ -1,0 +1,138 @@
+# Site
+repository: sproogen/resume-theme
+favicon: images/favicon.ico
+
+# Content configuration version
+version: 2
+
+# Personal info
+name: 김민지 
+title: 세명대학교 정보통신학부 2021219007 
+email: gkrtks40@naver.com
+website: https://kimminjiiiii.github.io/resume/
+
+# Dark Mode (true/false/never)
+darkmode: false
+
+# Social links
+# twitter_username: facespics
+github_username:  KimMinJiiiii
+# stackoverflow_username: "00000001"
+# dribbble_username: jekyll
+# facebook_username: jekyll
+# flickr_username: jekyll
+# instagram_username: jameswgrant
+#linkedin_username: jameswgrant
+# xing_username: jekyll
+# pinterest_username: jekyll
+# youtube_username: globalmtb
+# googleplus_username: +jekyll
+# orcid_username: 0000-0000-0000-0000
+
+# Additional icon links
+additional_links:
+- title: itsgoingto.be
+  icon: fas fa-globe
+  url: https://kimminjiiiii.github.io/resume/
+# - title: another link
+#   icon: font awesome brand icon name (eg. fab fa-twitter) (https://fontawesome.com/icons?d=gallery&m=free)
+#   url: Link url (eg. https://google.com)
+
+# Google Analytics and Tag Manager
+# Using more than one of these may cause issues with reporting
+# gtm: "GTM-0000000"
+# gtag: "UA-00000000-0"
+# google_analytics: "UA-00000000-0"
+
+# About Section
+# about_title: About Me
+# about_profile_image: images/profile.jpg
+about_content: | # this will include new lines to allow paragraphs
+  안녕하세요 저는 세명대학교 정보통신학부에 재학 중인 김민지입니다.
+  
+  리눅스 시스템 프로그래밍 수업을 수강하고 있으며 풀스택 개발자가 목표입니다.
+             
+  현재 관심있는 분야는 <mark>Linux</mark>와 <mark>Java</mark> 입니다.
+
+content:
+  - title: Projects
+    layout: list
+    content:
+      - layout: top-middle
+        title: Writing Challenge project
+        link: https://github.com/KimMinJiiiii?tab=repositories
+        link_text: Project Website
+        additional_links:
+          - title: sproogen/modern-resume-theme
+            icon: fab fa-github
+            url: https://github.com/KimMinJiiiii?tab=repositories
+        quote: |
+          "지속적인 글쓰기를 통해 창의성을 높여 일기 쓰는 습관을 들입시다!"
+        description: |
+          저는 이 프로젝트를 진행하면서 많은 성장을 했습니다. 
+          이것을 통해 다양한 기술을 배울 수 있었고 제 포트폴리오에 이 프로젝트가 있다는 것이 자랑스러우며
+          만약 이걸 보는 당신이 하나의 프로젝트라도 가지고 있지 않다면 
+          저는 당신에게 작은 프로젝트라도 만들어 보는 것을 추천합니다!
+
+  - title: Experience # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title: Department of Information and Communication 
+        link: http://www.semyung.ac.kr
+        # link_text: boringcompany.com
+        sub_title: 
+        caption: March 2021 - Present
+        quote: >
+          "다양한 경험으로 역량을 기르자 !"
+        description: | # this will include new lines to allow paragraphs
+            '일기 쓰기 챌린지' 이외에 '책 추천 프로그램' 프로젝트를 진행했었습니다.
+
+            이러한 프로젝트를 과정 속에서 사람들의 의견, 문제점, 위기 해결 등 많은 우여곡절이 많았지만
+            끝내 성공해 내는 결과물을 보며 이 또한 성장해 가는 과정 중 하나라고 생각했습니다.
+
+          
+            그리고 다양한 프로젝트를 진행할수록 새로운 기술을 시도하는 것을 즐길 수 있게 되었습니다. 
+
+  - title: A Future Plan # Title for the section
+    layout: list # Type of content section (list/text)
+    content:
+      - layout: left
+        title : Developer
+        caption: 2025 ~ 
+        sub_title: A Full Stack
+        quote: >
+        내가 노력해야 할 점
+      description: | # this will include new lines to allow paragraphs
+         풀스택 개발자가 되기 위해서는 프론트엔드와 백엔드를 자연스럽게 잘 다룰 수 있도록 많은 공부와 연습이 필요합니다.
+
+        학습에서는 프로그래밍 언어와 웹 개발 기술을 배우며 여러 영역에서 작업을 수행하고 개발에 필요한 기술을 학습해야 합니다.
+        그리고 나의 능력을 키우기 위해 자신만의 프로젝트의 경험도 늘리고 다양한 프로젝트를 참여하는 것 또한 중요하기 때문에
+
+        이러한 과정을 통해 모든 분야에서 유능한 개발자가 될 수 있도록 노력할 것입니다.
+
+  - title: A Little More About Me
+    layout: text
+    content: | # this will include new lines to allow paragraphs
+     소프트웨어 엔지니어링에 대한 관심과 함께 저의 다른 관심사와 취미는 다음과 같습니다.
+      - 영화 보기
+      - 음악 듣기
+      - 맛집 가기 
+#     - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+
+#      Look at this cool image  
+#      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+
+# Footer
+footer_show_references: true
+# references_title: References on request (Override references text)
+
+# Build settings
+remote_theme: sproogen/resume-theme
+
+sass:
+  sass_dir: _sass
+  style: compressed
+
+plugins:
+ - jekyll-seo-tag
